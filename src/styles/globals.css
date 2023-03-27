@@ -5,5 +5,11 @@
 @layer base{
     body{
         @apply dark:bg-background
+     
     }
+}
+
+*{
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility; 
 }

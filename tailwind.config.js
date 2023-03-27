@@ -10,6 +10,9 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    width: {
+      mobile: "342px",
+    },
     extend: {
       colors: {
         background: "#161616",
