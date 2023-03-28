@@ -18,7 +18,7 @@ const HeroHead = () => {
     if (currentTheme === "dark") {
       return (
         <buttons
-          className=" px-2 py-2 bg-darkSecondbg flex items-center justify-center hover:bg-darkHover cursor-pointer transition-all ease-in-out delay-150 border border-darkStroke rounded-lg"
+          className=" flex cursor-pointer items-center justify-center rounded-lg border border-darkStroke bg-darkSecondbg px-2 py-2 transition-all delay-150 ease-in-out hover:bg-darkHover"
           onClick={() => setTheme("light")}
         >
           <svg
@@ -40,7 +40,7 @@ const HeroHead = () => {
     } else {
       return (
         <button
-          className=" px-2 py-2 bg-lightSecondbg flex items-center justify-center hover:bg-lightHover cursor-pointer transition-all ease-in-out delay-150 border border-lightStroke rounded-lg"
+          className=" flex cursor-pointer items-center justify-center rounded-lg border border-lightStroke bg-lightSecondbg px-2 py-2 transition-all delay-150 ease-in-out hover:bg-lightHover"
           onClick={() => setTheme("dark")}
         >
           <svg
@@ -63,8 +63,8 @@ const HeroHead = () => {
   };
 
   return (
-    <div className="flex items-center text-center justify-between pt-40 px-6 ">
-      <div className="flex gap-2 items-center">
+    <div className="flex items-center justify-between px-6 pt-40 text-center ">
+      <div className="flex items-center gap-2">
         <div>
           <Image
             src={DisplayImg}
@@ -75,14 +75,14 @@ const HeroHead = () => {
         </div>
         <div className="flex flex-col items-start md:gap-1 ">
           <div>
-            <span className="md:font-semibold dark:text-white text-lightText md:text-xl text-sm leading-6 tracking-tight">
+            <span className="text-sm leading-6 tracking-tight text-lightText dark:text-white md:text-xl md:font-semibold">
               Harshvardhan Agarwal
             </span>
           </div>
-          <div className="flex gap-1 items-center">
+          <div className="flex items-center gap-1">
             <div>
               <Link href="https://twitter.com/harshii04" target="_blank">
-                <span className="dark:text-darkGrey1 md:text-sm text-xs md:hover:underline md:hover:underline-lightGrey1 md:hover:underline-offset-4 text-lightGrey1">
+                <span className="md:hover:underline-lightGrey1 text-xs text-lightGrey1 dark:text-darkGrey1 md:text-sm md:hover:underline md:hover:underline-offset-4">
                   @harshii04
                 </span>
               </Link>
@@ -94,7 +94,7 @@ const HeroHead = () => {
                 viewBox="0 0 24 24"
                 stroke-width="1"
                 stroke="#a0a0a0"
-                class="md:w-4 md:h-4 w-3 h-3"
+                class="md:w-4 w-3 h-3 md:h-4"
               >
                 <path
                   stroke-linecap="round"

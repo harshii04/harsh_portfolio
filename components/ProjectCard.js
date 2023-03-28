@@ -6,11 +6,11 @@ import Link from "next/link";
 
 const ProjectCard = ({ image, date, status, heading, subtext, link }) => {
   return (
-    <div className="flex  gap-7 md:items-start md:flex-row flex-col py-4">
+    <div className="flex  flex-col gap-7 py-4 md:flex-row md:items-start">
       <Image
         src={image}
         alt="This is the project image"
-        className="md:w-68 w-mobile h-mobile rounded-lg"
+        className="md:w-68 h-mobile w-mobile rounded-lg"
       />
 
       <div>
@@ -24,17 +24,17 @@ const ProjectCard = ({ image, date, status, heading, subtext, link }) => {
         </div>
         <div className="flex flex-col gap-2 pt-4">
           <div>
-            <span className="text-lightText dark:text-white md:text-lg font-medium tracking-tight leading-5">
+            <span className="font-medium leading-5 tracking-tight text-lightText dark:text-white md:text-lg">
               {heading}
             </span>
           </div>
           <div>
-            <span className="text-lightGrey1 text-base dark:text-darkGrey1 tracking-tight leading-5">
+            <span className="text-base leading-5 tracking-tight text-lightGrey1 dark:text-darkGrey1">
               {subtext}
             </span>
           </div>
         </div>
-        <div className="md:gap-2 pt-6">
+        <div className="pt-6 md:gap-2">
           <Link href={link} target="_blank">
             <Btn textLabel="Read Now" />
           </Link>

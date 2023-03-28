@@ -8,12 +8,12 @@ import MarqueeComp from "./MarqueeComp";
 
 const Currently = () => {
   return (
-    <div className="flex flex-col gap-4 px-6 md:pt-32 pt-16 ">
+    <div className="flex flex-col gap-4 px-6 pt-16 md:pt-32 ">
       <div>
         <MarqueeComp textLabel="CURRENTLY" />
       </div>
 
-      <div className="grid md:grid-cols-2 md:grid-rows-2 auto-cols-max md:gap-4 grid-cols-1 gap-3">
+      <div className="grid auto-cols-max grid-cols-1 gap-3 md:grid-cols-2 md:grid-rows-2 md:gap-4">
         {" "}
         <CurrentlyCard
           icon={

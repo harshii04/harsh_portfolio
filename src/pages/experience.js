@@ -4,7 +4,7 @@ import RandomQuoteGenerator from "../../components/RandomQuoteGenerator";
 
 const experience = () => {
   return (
-    <div className="flex flex-col max-w-708 mx-auto pt-8 md:pt-16 px-6  ">
+    <div className="mx-auto flex max-w-708 flex-col px-6 pt-8 md:pt-16  ">
       <div className="flex justify-between">
         <Link href="/">
           <div>
@@ -24,7 +24,7 @@ const experience = () => {
           </div>
         </Link>
         <div>
-          <span className="text-lightGrey1 dark:text-darkGrey1 text-xs font-semibold">
+          <span className="text-xs font-semibold text-lightGrey1 dark:text-darkGrey1">
             My Journey
           </span>
         </div>
@@ -109,17 +109,17 @@ const experience = () => {
           btnLabel="View my Work"
         />
       </div>
-      <footer className="mt-auto text-white pt-8 md:pt-16 text-center py-4">
+      <footer className="mt-auto py-4 pt-8 text-center text-white md:pt-16">
         <div className="flex flex-col items-center ">
           <div>
-            <span className="text-xs font-normal font-heading  text-secondary ">
+            <span className="font-heading text-secondary text-xs  font-normal ">
               <RandomQuoteGenerator />
             </span>
           </div>
           <div className="flex flex-col items-center justify-center">
             {" "}
             <div className="py-1">
-              <p className="bg-gradient-to-r from-[#8e62da]  via-[#3e93ed] to-[#bb4dac] font-semibold text-transparent bg-clip-text text-sm">
+              <p className="bg-gradient-to-r from-[#8e62da]  via-[#3e93ed] to-[#bb4dac] bg-clip-text text-xs font-semibold  text-transparent md:text-sm">
                 Designed & Developed by Harsh
               </p>
             </div>

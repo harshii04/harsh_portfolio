@@ -5,7 +5,7 @@ import MarqueeComp from "./MarqueeComp";
 
 const Experience = () => {
   return (
-    <div className="flex flex-col gap-6 px-6 md:pt-32 pt-16">
+    <div className="flex flex-col gap-6 px-6 pt-16 md:pt-32">
       <div>
         {" "}
         <MarqueeComp textLabel="MY JOURNEY" />

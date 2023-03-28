@@ -2,15 +2,15 @@ import Image from "next/image";
 
 const CurrentlyCard = ({ icon, heading, subHeading, image }) => {
   return (
-    <div className="flex hover:cursor-pointer items-start justify-between bg-lightSecondbg border border-lightStroke dark:bg-darkSecondbg dark:border-darkStroke py-4 px-4 rounded-lg">
-      <div className="flex gap-4 items-center">
+    <div className="flex items-start justify-between rounded-lg border border-lightStroke bg-lightSecondbg py-4 px-4 hover:cursor-pointer dark:border-darkStroke dark:bg-darkSecondbg">
+      <div className="flex items-center gap-4">
         <div>{icon}</div>
         <div className="flex flex-col">
           <div>
             <span className="text-lightText dark:text-white">{heading}</span>
           </div>
           <div>
-            <span className="text-lightGrey1 dark:text-darkGrey1 text-xs ">
+            <span className="text-xs text-lightGrey1 dark:text-darkGrey1 ">
               {subHeading}
             </span>
           </div>

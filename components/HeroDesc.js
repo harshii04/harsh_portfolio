@@ -3,19 +3,19 @@ import IconBtnRight from "./IconButnRight";
 
 const HeroDesc = () => {
   return (
-    <div className="flex flex-col md:gap-8 px-6 pt-12 gap-6 ">
+    <div className="flex flex-col gap-6 px-6 pt-12 md:gap-8 ">
       <div className="flex flex-col gap-2 ">
         <div>
-          <span className="text-lightGrey1 font-semibold text-xs dark:text-darkGrey1">
+          <span className="text-xs font-semibold text-lightGrey1 dark:text-darkGrey1">
             LI’L ABOUT ME
           </span>
         </div>
         <div>
-          <p className="md:text-xl text-sm leading-7 font-normal md:leading-9 tracking-tight">
+          <p className="text-sm font-normal leading-7 tracking-tight md:text-xl md:leading-9">
             I’m crafting exceptional products that blend Design and Engineering.
             Making Impactful experiences with form and function. Currently
             crafting experiences at{" "}
-            <span className="inline-flex font-medium bg-gradient-to-r from-[#4AB1F1] via-[#566CEC] via-[#D749AF] to-[#FF7C51]  text-transparent bg-clip-text">
+            <span className="inline-flex bg-gradient-to-r from-[#4AB1F1] via-[#566CEC] via-[#D749AF] to-[#FF7C51] bg-clip-text  font-medium text-transparent">
               {" "}
               <Link href="https://www.buildonscenes.com/" target="_blank">
                 Avalon Scenes

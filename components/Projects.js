@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const Projects = () => {
   return (
-    <div className="flex flex-col px-6 md:pt-32 pt-16">
+    <div className="flex flex-col px-6 pt-16 md:pt-32">
       <div>
         <MarqueeComp textLabel="PROJECTS" />
       </div>

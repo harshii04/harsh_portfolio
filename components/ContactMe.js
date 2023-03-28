@@ -8,12 +8,12 @@ import Medium from "./icons/medium.svg";
 
 const ContactMe = () => {
   return (
-    <div className="flex flex-col gap-4 px-6 md:pt-24 py-16">
+    <div className="flex flex-col gap-4 px-6 py-16 md:pt-24">
       <div>
         <MarqueeComp textLabel="CONTACT ME" />
       </div>
       <div>
-        <p className="text-lightText dark:text-white  text-sm md:text-lg  leading-6 tracking-tight ">
+        <p className="text-sm leading-6  tracking-tight text-lightText  dark:text-white md:text-lg ">
           I take pleasure in meeting new people and am enthusiastic about
           assisting with any queries you may have.
           <span className="block py-2"> </span>
@@ -29,7 +29,7 @@ const ContactMe = () => {
             fill="none"
             viewBox="0 0 24 24"
             stroke-width="1.5"
-            className="w-5 h-5 dark:stroke-darkGrey1 stroke-lightGrey1"
+            className="w-5 h-5 stroke-lightGrey1 dark:stroke-darkGrey1"
           >
             <path
               stroke-linecap="round"
@@ -38,7 +38,7 @@ const ContactMe = () => {
             />
           </svg>
 
-          <span className="text-sm text-lightGrey1 dark:text-darkGrey1 font-medium hover:cursor-pointer">
+          <span className="text-sm font-medium text-lightGrey1 hover:cursor-pointer dark:text-darkGrey1">
             <Link href="agarwal.harsh2021@gmail.com" target="_blank">
               Send me a Mail
             </Link>
@@ -48,9 +48,9 @@ const ContactMe = () => {
           <Image
             src={Twitter}
             alt="This is the icon"
-            className="w-5 h-5 dark:stroke-darkGrey1 stroke-lightGrey1 stroke-1"
+            className="w-5 h-5 stroke-lightGrey1 stroke-1 dark:stroke-darkGrey1"
           />
-          <span className="text-sm text-lightGrey1 dark:text-darkGrey1 font-medium hover:cursor-pointer">
+          <span className="text-sm font-medium text-lightGrey1 hover:cursor-pointer dark:text-darkGrey1">
             <Link href="https://twitter.com/harshii04" target="_blank">
               DM me on Twitter
             </Link>
@@ -61,9 +61,9 @@ const ContactMe = () => {
           <Image
             src={Github}
             alt="This is the icon"
-            className="w-5 h-5 dark:stroke-darkGrey1 stroke-lightGrey1 stroke-1"
+            className="w-5 h-5 stroke-lightGrey1 stroke-1 dark:stroke-darkGrey1"
           />
-          <span className="text-sm text-lightGrey1 dark:text-darkGrey1 font-medium hover:cursor-pointer">
+          <span className="text-sm font-medium text-lightGrey1 hover:cursor-pointer dark:text-darkGrey1">
             <Link
               href="https://github.com/harshii04/harsh_portfolio"
               target="_blank"

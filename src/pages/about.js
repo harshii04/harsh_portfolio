@@ -14,7 +14,7 @@ import RandomQuoteGenerator from "../../components/RandomQuoteGenerator";
 
 const about = () => {
   return (
-    <div className="flex flex-col max-w-708 mx-auto pt-8 md:pt-16 px-6  ">
+    <div className="mx-auto flex max-w-708 flex-col px-6 pt-8 md:pt-16  ">
       <div className="flex justify-between">
         <Link href="/">
           <div>
@@ -34,7 +34,7 @@ const about = () => {
           </div>
         </Link>
         <div>
-          <span className="text-lightGrey1 dark:text-darkGrey1 text-xs font-semibold">
+          <span className="text-xs font-semibold text-lightGrey1 dark:text-darkGrey1">
             About Me
           </span>
         </div>
@@ -57,10 +57,10 @@ const about = () => {
       </div>
       <div className="grid grid-rows-1 gap-10 py-8">
         <div className="flex flex-col gap-4">
-          <span className="font-semibold text-lightGrey1 dark:text-darkGrey1 text-sm md:text-base">
+          <span className="text-sm font-semibold text-lightGrey1 dark:text-darkGrey1 md:text-base">
             How It All Started
           </span>
-          <p className="text-lightText dark:text-white md:text-lg text-sm tracking-tight md:leading-8 leading-6">
+          <p className="text-sm leading-6 tracking-tight text-lightText dark:text-white md:text-lg md:leading-8">
             Exploring different fields during my first year of college, coding
             quickly caught my attention. But navigating clubs during the
             pandemic was tough. Luckily, I joined a club with friends and my
@@ -74,24 +74,24 @@ const about = () => {
         </div>
         <div className="flex flex-col items-center gap-2">
           <Image src={AboutMeImg} alt="" className="rounded-lg" />
-          <span className="text-lightGrey2 dark:text-darkGrey2 text-xs">
+          <span className="text-xs text-lightGrey2 dark:text-darkGrey2">
             Folks I will remember when I look back to college days
           </span>
         </div>
         <div className="flex flex-col gap-4">
-          <span className="font-semibold text-lightGrey1 dark:text-darkGrey1 text-sm">
+          <span className="text-sm font-semibold text-lightGrey1 dark:text-darkGrey1">
             Fast Forwarding Today!
           </span>
-          <p className="text-lightText dark:text-white md:text-lg  text-sm tracking-tight md:leading-8 leading-6">
+          <p className="text-sm leading-6 tracking-tight  text-lightText dark:text-white md:text-lg md:leading-8">
             Since completing my cohort with 10kdesigners, I am currently working
             as a Product Design Intern at Avalon Scenes .
           </p>
         </div>{" "}
         <div className="flex flex-col gap-4">
-          <span className="font-semibold text-lightGrey1 dark:text-darkGrey1 text-sm">
+          <span className="text-sm font-semibold text-lightGrey1 dark:text-darkGrey1">
             What’s to come
           </span>
-          <p className="text-lightText dark:text-white md:text-lg text-sm  tracking-tight md:leading-8 leading-6">
+          <p className="text-sm leading-6 tracking-tight text-lightText  dark:text-white md:text-lg md:leading-8">
             As an engineer, I have a strong passion for technology and I'm
             always on the lookout for the latest developments and trends. I'm
             particularly interested in exploring how design can be integrated
@@ -106,11 +106,11 @@ const about = () => {
       </div>
       <div className="flex flex-col gap-4">
         <div>
-          <span className="text-sm text-lightGrey1 dark:text-darkGrey1 font-semibold">
+          <span className="text-sm font-semibold text-lightGrey1 dark:text-darkGrey1">
             My Stack
           </span>
         </div>
-        <div className="grid md:grid-cols-8 grid-cols-4 gap-4 pb-24 auto-cols-auto">
+        <div className="grid auto-cols-auto grid-cols-4 gap-4 pb-24 md:grid-cols-8">
           <div>
             <Image src={Figma} alt="" height={60} width={60} />
           </div>
@@ -137,17 +137,17 @@ const about = () => {
           </div>
         </div>
       </div>
-      <footer className="mt-auto text-white pt-8 md:pt-16 text-center py-4">
+      <footer className="mt-auto py-4 pt-8 text-center text-white md:pt-16">
         <div className="flex flex-col items-center ">
           <div>
-            <span className="text-xs font-normal font-heading  text-secondary ">
+            <span className="font-heading text-secondary text-xs  font-normal ">
               <RandomQuoteGenerator />
             </span>
           </div>
           <div className="flex flex-col items-center justify-center">
             {" "}
             <div className="py-1">
-              <p className="bg-gradient-to-r from-[#8e62da]  via-[#3e93ed] to-[#bb4dac] font-semibold text-transparent bg-clip-text text-sm">
+              <p className="bg-gradient-to-r from-[#8e62da]  via-[#3e93ed] to-[#bb4dac] bg-clip-text text-xs font-semibold  text-transparent md:text-sm">
                 Designed & Developed by Harsh
               </p>
             </div>

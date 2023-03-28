@@ -72,7 +72,7 @@ export default function Home() {
           crossorigin="true"
         />
       </Head>
-      <div className="max-w-708 mx-auto ">
+      <div className="mx-auto max-w-708 ">
         <div className={splineSans.className}>
           <Hero />
           <HeroDesc />
@@ -80,17 +80,17 @@ export default function Home() {
           <Projects />
           <Experience />
           <ContactMe />
-          <footer className="mt-auto text-white pt-8 md:pt-16 text-center py-4">
+          <footer className="mt-auto py-4 pt-8 text-center text-white md:pt-16">
             <div className="flex flex-col items-center ">
               <div>
-                <span className="text-xs font-normal font-heading  text-secondary ">
+                <span className="font-heading text-secondary text-xs  font-normal ">
                   <RandomQuoteGenerator />
                 </span>
               </div>
               <div className="flex flex-col items-center justify-center">
                 {" "}
                 <div className="py-1">
-                  <p className="bg-gradient-to-r from-[#8e62da]  via-[#3e93ed] to-[#bb4dac] font-semibold text-transparent bg-clip-text text-sm">
+                  <p className="bg-gradient-to-r from-[#8e62da]  via-[#3e93ed] to-[#bb4dac] bg-clip-text text-xs font-semibold text-transparent md:text-sm">
                     Designed & Developed by Harsh
                   </p>
                 </div>

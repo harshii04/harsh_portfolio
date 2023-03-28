@@ -20,11 +20,11 @@ const ExperienceCard = ({
       </div>
       <div className="flex flex-col gap-4">
         <div className="flex flex-col gap-1">
-          <span className="text-lightText dark:text-white md:text-lg font-medium leading-5 tracking-tight">
+          <span className="font-medium leading-5 tracking-tight text-lightText dark:text-white md:text-lg">
             {heading}{" "}
           </span>
-          <div className="flex gap-1 items-center">
-            <span className="text-lightGrey1 dark:text-darkGrey1 md:text-base text-sm font-medium leading-5 tracking-tight md:hover:underline md:hover:underline-lightGrey1 md:hover:underline-offset-4">
+          <div className="flex items-center gap-1">
+            <span className="md:hover:underline-lightGrey1 text-sm font-medium leading-5 tracking-tight text-lightGrey1 dark:text-darkGrey1 md:text-base md:hover:underline md:hover:underline-offset-4">
               <Link href={link} target="_blank">
                 {subText}
               </Link>
@@ -35,7 +35,7 @@ const ExperienceCard = ({
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="#a0a0a0"
-              className="md:w-4 md:h-4 w-3 h-3"
+              className="md:w-4 w-3 h-3 md:h-4"
             >
               <path
                 stroke-linecap="round"
@@ -46,7 +46,7 @@ const ExperienceCard = ({
           </div>
         </div>
         <div>
-          <span className="text-lightText dark:text-white md:text-lg text-sm leading-6 tracking-tight">
+          <span className="text-sm leading-6 tracking-tight text-lightText dark:text-white md:text-lg">
             {description}
           </span>
         </div>
