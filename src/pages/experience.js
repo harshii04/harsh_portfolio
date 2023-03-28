@@ -1,9 +1,10 @@
 import Link from "next/link";
 import ExperienceCard from "../../components/ExperienceCard";
+import RandomQuoteGenerator from "../../components/RandomQuoteGenerator";
 
 const experience = () => {
   return (
-    <div className="flex flex-col max-w-708 mx-auto md:pt-40 px-6 pt-24 ">
+    <div className="flex flex-col max-w-708 mx-auto pt-8 md:pt-16 px-6  ">
       <div className="flex justify-between">
         <Link href="/">
           <div>
@@ -24,7 +25,7 @@ const experience = () => {
         </Link>
         <div>
           <span className="text-lightGrey1 dark:text-darkGrey1 text-xs font-semibold">
-            Projects
+            My Journey
           </span>
         </div>
         <div>
@@ -51,8 +52,9 @@ const experience = () => {
           heading="Product Design Intern"
           link="https://www.buildonscenes.com/"
           subText="Avalon Scenes"
-          description="Designed an all-in-one community platform for webinars, courses, events, media uploads, digital product sales, chats, forums, payments, and more."
+          description="Introducing a comprehensive community platform that offers webinars, courses, events etc - All in one place"
           btnLabel="View My Work"
+          btn_hide={true}
         />
         <hr className="border-lightLightStroke dark:border-darkLightStroke" />
         <ExperienceCard
@@ -63,6 +65,7 @@ const experience = () => {
           subText="10kdesigners"
           description="Design cohort run by Abhinav Chikara (aka Abnux) and Jayneil Dayal, that empowers designers through mentorship and real-world projects."
           btnLabel="Work in progress"
+          btn_hide={true}
         />
         <hr className="border-lightLightStroke dark:border-darkLightStroke" />
 
@@ -106,6 +109,23 @@ const experience = () => {
           btnLabel="View my Work"
         />
       </div>
+      <footer className="mt-auto text-white pt-8 md:pt-16 text-center py-4">
+        <div className="flex flex-col items-center ">
+          <div>
+            <span className="text-xs font-normal font-heading  text-secondary ">
+              <RandomQuoteGenerator />
+            </span>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            {" "}
+            <div className="py-1">
+              <p className="bg-gradient-to-r from-[#8e62da]  via-[#3e93ed] to-[#bb4dac] font-semibold text-transparent bg-clip-text text-sm">
+                Designed & Developed by Harsh
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };

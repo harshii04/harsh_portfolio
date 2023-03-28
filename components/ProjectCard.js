@@ -24,12 +24,12 @@ const ProjectCard = ({ image, date, status, heading, subtext, link }) => {
         </div>
         <div className="flex flex-col gap-2 pt-4">
           <div>
-            <span className="text-lightText dark:text-white font-medium tracking-tight leading-5">
+            <span className="text-lightText dark:text-white md:text-lg font-medium tracking-tight leading-5">
               {heading}
             </span>
           </div>
           <div>
-            <span className="text-lightGrey1 text-sm dark:text-darkGrey1 tracking-tight leading-5">
+            <span className="text-lightGrey1 text-base dark:text-darkGrey1 tracking-tight leading-5">
               {subtext}
             </span>
           </div>

@@ -10,7 +10,7 @@ import RandomQuoteGenerator from "../../components/RandomQuoteGenerator";
 
 const projects = () => {
   return (
-    <div className="flex flex-col max-w-708 mx-auto md:pt-40 px-6 pt-24 ">
+    <div className="flex flex-col max-w-708 mx-auto  px-6 pt-8 md:pt-16 ">
       <div className="flex justify-between">
         <Link href="/">
           <div>
@@ -116,11 +116,8 @@ const projects = () => {
           <div className="flex flex-col items-center justify-center">
             {" "}
             <div className="py-1">
-              <p className="text-lightGrey2 dark:text-darkGrey2 text-xs">
-                Designed & Developed by{" "}
-                <span className="text-lightGrey2 dark:text-darkGrey2 text-xs">
-                  Harsh
-                </span>
+              <p className="bg-gradient-to-r from-[#8e62da]  via-[#3e93ed] to-[#bb4dac] font-semibold text-transparent bg-clip-text text-sm">
+                Designed & Developed by Harsh
               </p>
             </div>
           </div>

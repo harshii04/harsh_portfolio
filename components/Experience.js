@@ -5,7 +5,7 @@ import MarqueeComp from "./MarqueeComp";
 
 const Experience = () => {
   return (
-    <div className="flex flex-col gap-4 px-6 md:pt-24 pt-16">
+    <div className="flex flex-col gap-6 px-6 md:pt-32 pt-16">
       <div>
         {" "}
         <MarqueeComp textLabel="MY JOURNEY" />
@@ -18,8 +18,9 @@ const Experience = () => {
             heading="Product Design Intern"
             link="https://www.buildonscenes.com/"
             subText="Avalon Scenes"
-            description="Designed an all-in-one community platform for webinars, courses, events, media uploads, digital product sales, chats, forums, payments, and more."
+            description="Introducing a comprehensive community platform that offers webinars, courses, events etc - All in one place"
             btnLabel="View My Work"
+            btn_hide={true}
           />
           <hr className="border-lightLightStroke dark:border-darkLightStroke" />
           <ExperienceCard
@@ -30,6 +31,7 @@ const Experience = () => {
             subText="10kdesigners"
             description="Design cohort run by Abhinav Chikara (aka Abnux) and Jayneil Dayal, that empowers designers through mentorship and real-world projects."
             btnLabel="Work in progress"
+            btn_hide={true}
           />
           <hr className="border-lightLightStroke dark:border-darkLightStroke" />
 

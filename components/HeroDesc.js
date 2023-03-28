@@ -13,7 +13,7 @@ const HeroDesc = () => {
         <div>
           <p className="md:text-xl text-sm leading-7 font-normal md:leading-9 tracking-tight">
             I’m crafting exceptional products that blend Design and Engineering.
-            Making Impactful experiences with beauty and function. Currently
+            Making Impactful experiences with form and function. Currently
             crafting experiences at{" "}
             <span className="inline-flex font-medium bg-gradient-to-r from-[#4AB1F1] via-[#566CEC] via-[#D749AF] to-[#FF7C51]  text-transparent bg-clip-text">
               {" "}
@@ -21,9 +21,8 @@ const HeroDesc = () => {
                 Avalon Scenes
               </Link>
             </span>{" "}
-            . My objective is straightforward, to create exceptional things
-            alongside exceptional individuals. By collaborating harmoniously, we
-            can accomplish this goal.
+            . My objective is straightforward: To create exceptional things
+            alongside exceptional individuals with harmonious collaboration.
           </p>
         </div>
       </div>

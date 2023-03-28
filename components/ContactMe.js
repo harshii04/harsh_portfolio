@@ -13,7 +13,7 @@ const ContactMe = () => {
         <MarqueeComp textLabel="CONTACT ME" />
       </div>
       <div>
-        <p className="text-lightText dark:text-white text-sm md:text-base leading-6 tracking-tight ">
+        <p className="text-lightText dark:text-white  text-sm md:text-lg  leading-6 tracking-tight ">
           I take pleasure in meeting new people and am enthusiastic about
           assisting with any queries you may have.
           <span className="block py-2"> </span>

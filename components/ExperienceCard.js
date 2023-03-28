@@ -1,4 +1,4 @@
-import IconBrnLeft from "./IconBtnLeft";
+import IconBtnLeft from "./IconBtnLeft";
 import TagComp from "./TagComp";
 import Link from "next/link";
 
@@ -10,6 +10,7 @@ const ExperienceCard = ({
   description,
   link,
   btnLabel,
+  btn_hide,
 }) => {
   return (
     <div className="flex flex-col gap-4 py-4">
@@ -18,14 +19,12 @@ const ExperienceCard = ({
         <TagComp textLabel={time} />
       </div>
       <div className="flex flex-col gap-4">
-        <div className="flex flex-col gap-2">
-          <div>
-            <span className="text-lightText dark:text-white font-medium leading-5 tracking-tight">
-              {heading}{" "}
-            </span>
-          </div>
+        <div className="flex flex-col gap-1">
+          <span className="text-lightText dark:text-white md:text-lg font-medium leading-5 tracking-tight">
+            {heading}{" "}
+          </span>
           <div className="flex gap-1 items-center">
-            <span className="text-lightGrey1 dark:text-darkGrey1 text-sm leading-5 tracking-tight md:hover:underline md:hover:underline-lightGrey1 md:hover:underline-offset-4">
+            <span className="text-lightGrey1 dark:text-darkGrey1 md:text-base text-sm font-medium leading-5 tracking-tight md:hover:underline md:hover:underline-lightGrey1 md:hover:underline-offset-4">
               <Link href={link} target="_blank">
                 {subText}
               </Link>
@@ -34,7 +33,7 @@ const ExperienceCard = ({
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
-              stroke-width="1"
+              stroke-width="1.5"
               stroke="#a0a0a0"
               className="md:w-4 md:h-4 w-3 h-3"
             >
@@ -47,13 +46,13 @@ const ExperienceCard = ({
           </div>
         </div>
         <div>
-          <span className="text-lightText dark:text-white text-sm leading-6 tracking-tight">
+          <span className="text-lightText dark:text-white md:text-lg text-sm leading-6 tracking-tight">
             {description}
           </span>
         </div>
       </div>
       <div>
-        <IconBrnLeft
+        <IconBtnLeft
           icon={
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +60,7 @@ const ExperienceCard = ({
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              class="w-6 h-6"
+              class="w-4 h-4"
             >
               <path
                 stroke-linecap="round"
@@ -71,6 +70,7 @@ const ExperienceCard = ({
             </svg>
           }
           textLabel={btnLabel}
+          show_btn={btn_hide}
         />
       </div>
     </div>

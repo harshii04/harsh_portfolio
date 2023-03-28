@@ -11,7 +11,7 @@ function RandomQuoteGenerator() {
 
   return (
     <div>
-      <p className="text-lightGrey2 dark:text-darkGrey2 text-xs">{quote}</p>
+      <p className="text-lightGrey2 dark:text-darkGrey2 text-sm">{quote}</p>
     </div>
   );
 }
