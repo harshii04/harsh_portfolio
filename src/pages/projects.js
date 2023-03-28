@@ -7,10 +7,14 @@ import IRCTC from "/public/images/Irctc.svg";
 import ParitoshCover from "/public/images/ParitoshWebDesign.svg";
 import TPHCover from "/public/images/TPHCover.svg";
 import RandomQuoteGenerator from "../../components/RandomQuoteGenerator";
+import Head from "next/head";
 
 const projects = () => {
   return (
     <div className="mx-auto flex max-w-708 flex-col  px-6 pt-8 md:pt-16 ">
+      <Head>
+        <title>Projects</title>
+      </Head>
       <div className="flex justify-between">
         <Link href="/">
           <div>

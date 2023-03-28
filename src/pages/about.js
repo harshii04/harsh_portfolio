@@ -11,10 +11,14 @@ import Spotify from "/public/images/spotify.svg";
 import Discord from "/public/images/discord.svg";
 import AfterEffects from "/public/images/ae.svg";
 import RandomQuoteGenerator from "../../components/RandomQuoteGenerator";
+import Head from "next/head";
 
 const about = () => {
   return (
     <div className="mx-auto flex max-w-708 flex-col px-6 pt-8 md:pt-16  ">
+      <Head>
+        <title>About Me</title>
+      </Head>
       <div className="flex justify-between">
         <Link href="/">
           <div>

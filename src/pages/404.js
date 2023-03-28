@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Link from "next/link";
 import Btn from "../../components/Btn";
 import RandomQuoteGenerator from "../../components/RandomQuoteGenerator";
@@ -6,6 +7,9 @@ import RandomQuoteGenerator from "../../components/RandomQuoteGenerator";
 const pagenotfound = () => {
   return (
     <div className="mx-auto flex h-screen max-w-708 flex-col items-center justify-center px-6 pt-8 md:pt-16">
+      <Head>
+        <title>Oopss!..</title>
+      </Head>
       <div>
         <span className=" text-sm font-medium text-lightGrey1 dark:text-darkGrey1 md:text-xl ">
           Oops, it looks like I lost the rhythm! I'm still iterating on this

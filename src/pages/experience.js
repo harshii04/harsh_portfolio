@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Link from "next/link";
 import ExperienceCard from "../../components/ExperienceCard";
 import RandomQuoteGenerator from "../../components/RandomQuoteGenerator";
@@ -5,6 +6,9 @@ import RandomQuoteGenerator from "../../components/RandomQuoteGenerator";
 const experience = () => {
   return (
     <div className="mx-auto flex max-w-708 flex-col px-6 pt-8 md:pt-16  ">
+      <Head>
+        <title>My Experience</title>
+      </Head>
       <div className="flex justify-between">
         <Link href="/">
           <div>
