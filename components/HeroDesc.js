@@ -15,7 +15,7 @@ const HeroDesc = () => {
             I’m crafting exceptional products that blend Design and Engineering.
             Making Impactful experiences with beauty and function. Currently
             crafting experiences at{" "}
-            <span className="font-medium text-lightGrey1 hover:cursor-pointer transition-all ease-in-out duration-200 dark:text-darkGrey1 hover:text-lightText dark:hover:text-white">
+            <span className="inline-flex font-medium bg-gradient-to-r from-[#4AB1F1] via-[#566CEC] via-[#D749AF] to-[#FF7C51]  text-transparent bg-clip-text">
               {" "}
               <Link href="https://www.buildonscenes.com/" target="_blank">
                 Avalon Scenes

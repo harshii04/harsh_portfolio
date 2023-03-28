@@ -10,6 +10,7 @@ import Chrome from "/public/images/chrome.svg";
 import Spotify from "/public/images/spotify.svg";
 import Discord from "/public/images/discord.svg";
 import AfterEffects from "/public/images/ae.svg";
+import RandomQuoteGenerator from "../../components/RandomQuoteGenerator";
 
 const about = () => {
   return (
@@ -136,6 +137,26 @@ const about = () => {
           </div>
         </div>
       </div>
+      <footer className="mt-auto text-white pt-8 md:pt-16 text-center py-4">
+        <div className="flex flex-col items-center ">
+          <div>
+            <span className="text-xs font-normal font-heading  text-secondary ">
+              <RandomQuoteGenerator />
+            </span>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            {" "}
+            <div className="py-1">
+              <p className="text-lightGrey2 dark:text-darkGrey2 text-xs">
+                Designed & Developed by{" "}
+                <span className="text-lightGrey2 dark:text-darkGrey2 text-xs">
+                  Harsh
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };

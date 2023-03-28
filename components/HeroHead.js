@@ -18,7 +18,7 @@ const HeroHead = () => {
     if (currentTheme === "dark") {
       return (
         <buttons
-          className=" w-10 h-10 bg-darkSecondbg flex items-center justify-center hover:bg-darkHover cursor-pointer transition-all ease-in-out delay-150 border border-darkStroke rounded-lg"
+          className=" px-2 py-2 bg-darkSecondbg flex items-center justify-center hover:bg-darkHover cursor-pointer transition-all ease-in-out delay-150 border border-darkStroke rounded-lg"
           onClick={() => setTheme("light")}
         >
           <svg
@@ -40,7 +40,7 @@ const HeroHead = () => {
     } else {
       return (
         <button
-          className=" w-10 h-10 bg-lightSecondbg flex items-center justify-center hover:bg-lightHover cursor-pointer transition-all ease-in-out delay-150 border border-lightStroke rounded-lg"
+          className=" px-2 py-2 bg-lightSecondbg flex items-center justify-center hover:bg-lightHover cursor-pointer transition-all ease-in-out delay-150 border border-lightStroke rounded-lg"
           onClick={() => setTheme("dark")}
         >
           <svg

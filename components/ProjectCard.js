@@ -10,7 +10,7 @@ const ProjectCard = ({ image, date, status, heading, subtext, link }) => {
       <Image
         src={image}
         alt="This is the project image"
-        className="md:w-68 w-mobile h-mobile"
+        className="md:w-68 w-mobile h-mobile rounded-lg"
       />
 
       <div>
@@ -34,7 +34,7 @@ const ProjectCard = ({ image, date, status, heading, subtext, link }) => {
             </span>
           </div>
         </div>
-        <div className="md:pt-16 pt-6">
+        <div className="md:gap-2 pt-6">
           <Link href={link} target="_blank">
             <Btn textLabel="Read Now" />
           </Link>
