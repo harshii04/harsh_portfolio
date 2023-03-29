@@ -1,5 +1,5 @@
 import Head from "next/head";
-import RandomQuoteGenerator from "../../components/RandomQuoteGenerator";
+import { motion } from "framer-motion";
 import Hero from "../../components/HeroHead";
 import { Spline_Sans } from "next/font/google";
 import HeroDesc from "../../components/HeroDesc";
@@ -7,6 +7,7 @@ import Currently from "../../components/Currently";
 import Projects from "../../components/Projects";
 import Experience from "../../components/Experience";
 import ContactMe from "../../components/ContactMe";
+import RandomQuoteGenerator from "../../components/RandomQuoteGenerator";
 
 const splineSans = Spline_Sans({ subsets: ["latin"] });
 
@@ -72,7 +73,12 @@ export default function Home() {
           crossorigin="true"
         />
       </Head>
-      <div className="mx-auto max-w-708 ">
+      <motion.div
+        className="mx-auto max-w-708"
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+      >
         <div className={splineSans.className}>
           <Hero />
           <HeroDesc />
@@ -98,7 +104,7 @@ export default function Home() {
             </div>
           </footer>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 }

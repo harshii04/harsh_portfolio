@@ -1,11 +1,6 @@
 import Link from "next/link";
+import { motion } from "framer-motion";
 import ProjectCard from "../../components/ProjectCard";
-// import Fampay from "/public/images/Fampay.svg";
-// import Dive from "/public/images/Dive.svg";
-// import Razorpay from "/public/images/Razorpay.svg";
-// import IRCTC from "/public/images/Irctc.svg";
-// import ParitoshCover from "/public/images/ParitoshWebDesign.svg";
-// import TPHCover from "/public/images/TPHCover.svg";
 import Fampay from "/public/images/Fampay.png";
 import Razorpay from "/public/images/Razorpay.png";
 import Dive from "/public/images/Dive.png";
@@ -17,7 +12,12 @@ import Head from "next/head";
 
 const projects = () => {
   return (
-    <div className="mx-auto flex max-w-708 flex-col  px-6 pt-8 md:pt-16 ">
+    <motion.div
+      className="mx-auto flex max-w-708 flex-col  px-6 pt-8 md:pt-16"
+      initial={{ opacity: 0, y: 50 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 1 }}
+    >
       <Head>
         <title>Projects</title>
       </Head>
@@ -61,11 +61,11 @@ const projects = () => {
           </svg>
         </div>
       </div>
-      <div className="flex flex-col">
+      <div className="flex flex-col pt-8">
         <ProjectCard
           image={TPHCover}
           heading="Redesigning the landing page for better discoveribility"
-          subtext="I had the exciting opportunity to redesign 'The Product House' landing page for my take-home assignment! My goal was to create an engaging and informative showcase of their initiatives, partners, newsletter, and community across Discord, Twitter, LinkedIn, and Instagram."
+          subtext="Redesigned 'The Product House' landing page for my take-home assignment! My goal was to create an engaging and informative showcase of their brand."
           date="2022"
           status="Completed"
           link="https://designbyharsh.notion.site/The-Product-House-Design-Assignment-832731c6218c45cfa61655cb23a1fa2d"
@@ -133,7 +133,7 @@ const projects = () => {
           </div>
         </div>
       </footer>
-    </div>
+    </motion.div>
   );
 };
 

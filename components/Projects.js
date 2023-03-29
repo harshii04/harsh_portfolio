@@ -11,11 +11,11 @@ import Link from "next/link";
 
 const Projects = () => {
   return (
-    <div className="flex flex-col px-6 pt-16 md:pt-32">
+    <div className="flex flex-col px-6 pt-24 md:pt-32">
       <div>
         <MarqueeComp textLabel="PROJECTS" />
       </div>
-      <div className="flex flex-col items-center gap-2">
+      <div className="flex flex-col items-center gap-4 pt-8">
         <div className="flex flex-col">
           <ProjectCard
             image={Fampay}

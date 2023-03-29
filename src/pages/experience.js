@@ -1,11 +1,17 @@
 import Head from "next/head";
 import Link from "next/link";
+import { motion } from "framer-motion";
 import ExperienceCard from "../../components/ExperienceCard";
 import RandomQuoteGenerator from "../../components/RandomQuoteGenerator";
 
 const experience = () => {
   return (
-    <div className="mx-auto flex max-w-708 flex-col px-6 pt-8 md:pt-16  ">
+    <motion.div
+      className="mx-auto flex max-w-708 flex-col px-6 pt-8 md:pt-16"
+      initial={{ opacity: 0, y: 50 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 1 }}
+    >
       <Head>
         <title>My Experience</title>
       </Head>
@@ -49,7 +55,7 @@ const experience = () => {
           </svg>
         </div>
       </div>
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-4 pt-8">
         <ExperienceCard
           type="Design"
           time="Dec 2022 - Present"
@@ -130,7 +136,7 @@ const experience = () => {
           </div>
         </div>
       </footer>
-    </div>
+    </motion.div>
   );
 };
 

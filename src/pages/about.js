@@ -1,5 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
+import Head from "next/head";
+// import ImageCarousel from "/components/Imagecour";
+import { motion } from "framer-motion";
 import Link from "next/link";
 import AboutMeImg from "/public/images/AboutMeImg.png";
 import Figma from "/public/images/figma.svg";
@@ -11,11 +14,19 @@ import Spotify from "/public/images/spotify.svg";
 import Discord from "/public/images/discord.svg";
 import AfterEffects from "/public/images/ae.svg";
 import RandomQuoteGenerator from "../../components/RandomQuoteGenerator";
-import Head from "next/head";
 
 const about = () => {
+  // const images = [
+  //   "/public/images/AboutMeImg.png",
+  //   "/public/images/AboutMe2.png",
+  // ];
   return (
-    <div className="mx-auto flex max-w-708 flex-col px-6 pt-8 md:pt-16  ">
+    <motion.div
+      className="mx-auto flex max-w-708 flex-col px-6 pt-8 md:pt-16"
+      initial={{ opacity: 0, y: 50 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 1 }}
+    >
       <Head>
         <title>About Me</title>
       </Head>
@@ -59,7 +70,7 @@ const about = () => {
           </svg>
         </div>
       </div>
-      <div className="grid grid-rows-1 gap-10 py-8">
+      <div className="grid grid-rows-1 gap-10 py-8 pt-8">
         <div className="flex flex-col gap-4">
           <span className="text-sm font-semibold text-lightGrey1 dark:text-darkGrey1 md:text-base">
             How It All Started
@@ -78,6 +89,7 @@ const about = () => {
         </div>
         <div className="flex flex-col items-center gap-2">
           <Image src={AboutMeImg} alt="" className="rounded-lg" />
+          {/* <ImageCarousel images={images} /> */}
           <span className="text-xs text-lightGrey2 dark:text-darkGrey2">
             Folks I will remember when I look back to college days
           </span>
@@ -158,7 +170,7 @@ const about = () => {
           </div>
         </div>
       </footer>
-    </div>
+    </motion.div>
   );
 };
 

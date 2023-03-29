@@ -6,11 +6,11 @@ import Link from "next/link";
 
 const ProjectCard = ({ image, date, status, heading, subtext, link }) => {
   return (
-    <div className="flex  flex-col gap-7 py-4 md:flex-row md:items-start">
+    <div className="flex  flex-col gap-8 py-4 md:flex-row md:items-start">
       <Image
         src={image}
         alt="This is the project image"
-        className="md:w-68 h-mobile w-mobile rounded-lg"
+        className="h-mobile w-mobile rounded-lg md:h-64"
       />
 
       <div>

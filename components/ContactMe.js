@@ -8,7 +8,7 @@ import Medium from "./icons/medium.svg";
 
 const ContactMe = () => {
   return (
-    <div className="flex flex-col gap-4 px-6 py-16 md:pt-24">
+    <div className="flex flex-col gap-4 px-6 py-16 pt-8 md:pt-24">
       <div>
         <MarqueeComp textLabel="CONTACT ME" />
       </div>

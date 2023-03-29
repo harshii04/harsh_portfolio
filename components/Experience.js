@@ -6,22 +6,20 @@ import MarqueeComp from "./MarqueeComp";
 
 const Experience = () => {
   return (
-  
-
-    <div className="flex flex-col gap-6 px-6 pt-16 md:pt-32">
+    <div className="flex flex-col gap-6 px-6 pt-24 md:pt-32">
       <div>
         {" "}
         <MarqueeComp textLabel="MY JOURNEY" />
       </div>
-      <div className="flex flex-col items-center gap-2">
+      <div className="flex flex-col items-center gap-2 pt-8">
         <div className="flex flex-col gap-4">
           <ExperienceCard
             type="Design"
             time="Dec 2022 - Present"
-            heading="Product Design Intern"
+            subText="Product Design Intern"
             link="https://www.buildonscenes.com/"
-            subText="Avalon Scenes"
-            description="Introducing a comprehensive community platform that offers webinars, courses, events etc - All in one place"
+            heading="Avalon Scenes"
+            description="Scenes is a comprehensive community platform that offers webinars, courses, events etc - All in one place"
             btnLabel="View My Work"
             btn_hide={true}
           />
