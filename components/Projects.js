@@ -1,8 +1,11 @@
 import MarqueeComp from "./MarqueeComp";
 import ProjectCard from "./ProjectCard";
-import Fampay from "/public/images/Fampay.svg";
-import Dive from "/public/images/Dive.svg";
-import Razorpay from "/public/images/Razorpay.svg";
+// import Fampay from "/public/images/Fampay.svg";
+// import Dive from "/public/images/Dive.svg";
+// import Razorpay from "/public/images/Razorpay.svg";
+import Fampay from "/public/images/Fampay.png";
+import Razorpay from "/public/images/Razorpay.png";
+import Dive from "/public/images/Dive.png";
 import Btn from "./Btn";
 import Link from "next/link";
 

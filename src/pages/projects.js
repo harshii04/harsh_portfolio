@@ -1,11 +1,17 @@
 import Link from "next/link";
 import ProjectCard from "../../components/ProjectCard";
-import Fampay from "/public/images/Fampay.svg";
-import Dive from "/public/images/Dive.svg";
-import Razorpay from "/public/images/Razorpay.svg";
-import IRCTC from "/public/images/Irctc.svg";
-import ParitoshCover from "/public/images/ParitoshWebDesign.svg";
-import TPHCover from "/public/images/TPHCover.svg";
+// import Fampay from "/public/images/Fampay.svg";
+// import Dive from "/public/images/Dive.svg";
+// import Razorpay from "/public/images/Razorpay.svg";
+// import IRCTC from "/public/images/Irctc.svg";
+// import ParitoshCover from "/public/images/ParitoshWebDesign.svg";
+// import TPHCover from "/public/images/TPHCover.svg";
+import Fampay from "/public/images/Fampay.png";
+import Razorpay from "/public/images/Razorpay.png";
+import Dive from "/public/images/Dive.png";
+import IRCTC from "/public/images/Irctc.png";
+import ParitoshCover from "/public/images/Frame 44.png";
+import TPHCover from "/public/images/TPH.png";
 import RandomQuoteGenerator from "../../components/RandomQuoteGenerator";
 import Head from "next/head";
 
