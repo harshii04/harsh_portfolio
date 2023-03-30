@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Btn from "./Btn";
 import IconBtnRight from "./IconButnRight";
 
 const HeroDesc = () => {
@@ -26,7 +27,7 @@ const HeroDesc = () => {
           </p>
         </div>
       </div>
-      <div>
+      <div className="flex gap-4">
         <Link href="/about">
           <IconBtnRight
             textLabel="Read More"
@@ -47,6 +48,12 @@ const HeroDesc = () => {
               </svg>
             }
           />
+        </Link>
+        <Link
+          href="https://drive.google.com/file/d/1Vrm5u9mcTLJOunQLBgMz_zs3XB5iUtT8/view?usp=sharing"
+          target="_blank"
+        >
+          <Btn textLabel="View my Resume" />
         </Link>
       </div>
     </div>

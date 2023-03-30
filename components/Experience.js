@@ -16,9 +16,9 @@ const Experience = () => {
           <ExperienceCard
             type="Design"
             time="Dec 2022 - Present"
-            subText="Product Design Intern"
+            subText="Avalon Scenes"
+            heading="Product Design Intern"
             link="https://www.buildonscenes.com/"
-            heading="Avalon Scenes"
             description="Scenes is a comprehensive community platform that offers webinars, courses, events etc - All in one place"
             btnLabel="View My Work"
             btn_hide={true}

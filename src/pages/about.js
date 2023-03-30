@@ -91,7 +91,7 @@ const about = () => {
           <Image src={AboutMeImg} alt="" className="rounded-lg" />
           {/* <ImageCarousel images={images} /> */}
           <span className="text-xs text-lightGrey2 dark:text-darkGrey2">
-            Folks I will remember when I look back to college days
+            Forever college fam 😄
           </span>
         </div>
         <div className="flex flex-col gap-4">
