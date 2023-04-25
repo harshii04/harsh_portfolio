@@ -15,7 +15,7 @@ const Projects = () => {
       <div>
         <MarqueeComp textLabel="PROJECTS" />
       </div>
-      <div className="flex flex-col items-center gap-4 pt-8">
+      <div className="flex flex-col items-center gap-4 pt-4 md:pt-8">
         <div className="flex flex-col">
           <ProjectCard
             image={Fampay}

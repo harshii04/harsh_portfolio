@@ -13,7 +13,7 @@ const Currently = () => {
         <MarqueeComp textLabel="CURRENTLY" />
       </div>
 
-      <div className="grid auto-cols-max grid-cols-1 gap-3 pt-8 md:grid-cols-2 md:grid-rows-2 md:gap-4">
+      <div className="grid auto-cols-max grid-cols-1 gap-3 pt-4 md:grid-cols-2 md:grid-rows-2 md:gap-4 md:pt-8">
         {" "}
         <CurrentlyCard
           icon={

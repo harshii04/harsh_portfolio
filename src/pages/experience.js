@@ -62,7 +62,7 @@ const experience = () => {
           heading="Product Design Intern"
           link="https://www.buildonscenes.com/"
           subText="Avalon Scenes"
-          description="Introducing a comprehensive community platform that offers webinars, courses, events etc - All in one place"
+          description="At Scenes, we are building an all-in-one community platform that enables creators to connect & manage their community better."
           btnLabel="View My Work"
           btn_hide={true}
         />
@@ -85,7 +85,7 @@ const experience = () => {
           heading="Product Design Intern"
           link="https://www.letsdive.io/"
           subText="Dive"
-          description="As a remote work facilitator, I created fun and engaging virtual experiences that boosted team morale and improved productivity."
+          description="I built and facilitated engaging remote experiences, connecting colleagues at work. I designed various games, including 'Word Pirate,' which became one of the platform's most-played games within two weeks of launch."
           btnLabel="View My Work"
         />
         <hr className="border-lightLightStroke dark:border-darkLightStroke" />
@@ -96,26 +96,27 @@ const experience = () => {
           heading="Product Design Intern"
           link="https://www.winuall.com/"
           subText="Winuall"
-          description="Built an empowering bridge for learners, tutors, and individuals in the learning ecosystem to overcome the digital divide."
+          description="I focused on visual and interaction design for the product, crafting compelling narratives. My responsibilities included creating interactive features that enriched user experiences on both the app and website."
           btnLabel="View my work"
         />
-
+        <hr className="border-lightLightStroke dark:border-darkLightStroke" />
         <ExperienceCard
           type="Extracurricular Activities and Leadership"
           time="Dec 2022 - Present"
           heading="Design Mentor"
           link="https://www.instagram.com/csivitu/"
           subText="Computer Society of India - VIT Student Chapter"
-          description="I take workshops and training sessions to teach members new design techniques and software tools, and helped them apply these skills to their projects."
+          description="Helping out the students with their projects and keep them upto date with what is happening in the design space."
           btnLabel="View my Work"
         />
+        <hr className="border-lightLightStroke dark:border-darkLightStroke" />
         <ExperienceCard
           type="Extracurricular Activities and Leadership"
           time="Dec 2021 - Present"
           heading="Senior Core Committee Member"
           link="https://www.instagram.com/ixda_vit/"
           subText="Interaction Design Association - VIT Student Chapter"
-          description="We being the first Product Design Chapter in our college, we're trying to build a strong community of designers."
+          description="As the inaugural product design chapter in our college, we aim to establish a robust design community where students can learn, share knowledge, and foster design expertise."
           btnLabel="View my Work"
         />
       </div>

@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { motion } from "framer-motion";
 import Hero from "../../components/HeroHead";
-import { Spline_Sans } from "next/font/google";
+import { Inter, Spline_Sans } from "next/font/google";
 import HeroDesc from "../../components/HeroDesc";
 import Currently from "../../components/Currently";
 import Projects from "../../components/Projects";
@@ -10,6 +10,7 @@ import ContactMe from "../../components/ContactMe";
 import RandomQuoteGenerator from "../../components/RandomQuoteGenerator";
 
 const splineSans = Spline_Sans({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -79,7 +80,7 @@ export default function Home() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        <div className={splineSans.className}>
+        <div className={inter.className}>
           <Hero />
           <HeroDesc />
           <Currently />

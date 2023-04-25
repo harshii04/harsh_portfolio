@@ -12,8 +12,8 @@ const ContactMe = () => {
       <div>
         <MarqueeComp textLabel="CONTACT ME" />
       </div>
-      <div>
-        <p className="text-sm leading-6  tracking-tight text-lightText  dark:text-white md:text-lg ">
+      <div className="pt-4 md:pt-8">
+        <p className="text-sm leading-6  tracking-tight text-lightText  dark:text-white md:text-base ">
           I take pleasure in meeting new people and am enthusiastic about
           assisting with any queries you may have.
           <span className="block py-2"> </span>

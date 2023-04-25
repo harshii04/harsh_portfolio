@@ -46,7 +46,7 @@ const ExperienceCard = ({
           </div>
         </div>
         <div>
-          <span className="text-sm leading-6 tracking-tight text-lightText dark:text-white md:text-lg">
+          <span className="text-sm leading-6 tracking-tight text-lightText dark:text-white md:text-clip md:text-base md:leading-7 md:tracking-tight">
             {description}
           </span>
         </div>

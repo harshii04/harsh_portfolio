@@ -11,7 +11,7 @@ const Experience = () => {
         {" "}
         <MarqueeComp textLabel="MY JOURNEY" />
       </div>
-      <div className="flex flex-col items-center gap-2 pt-8">
+      <div className="flex flex-col items-center gap-2 pt-4 md:pt-8">
         <div className="flex flex-col gap-4">
           <ExperienceCard
             type="Design"
@@ -19,7 +19,7 @@ const Experience = () => {
             subText="Avalon Scenes"
             heading="Product Design Intern"
             link="https://www.buildonscenes.com/"
-            description="Scenes is a comprehensive community platform that offers webinars, courses, events etc - All in one place"
+            description="At Scenes, we are building an all-in-one community platform that enables creators to connect & manage their community better."
             btnLabel="View My Work"
             btn_hide={true}
           />
@@ -42,7 +42,7 @@ const Experience = () => {
             heading="Product Design Intern"
             link="https://www.letsdive.io/"
             subText="Dive"
-            description="As a remote work facilitator, I created fun and engaging virtual experiences that boosted team morale and improved productivity."
+            description="I built and facilitated engaging remote experiences, connecting colleagues at work. I designed various games, including 'Word Pirate,' which became one of the platform's most-played games within two weeks of launch.As a remote work facilitator, I created fun and engaging virtual experiences that boosted team morale and improved productivity."
             btnLabel="View My Work"
           />
           <hr className="border-lightLightStroke dark:border-darkLightStroke" />
@@ -53,7 +53,7 @@ const Experience = () => {
             heading="Product Design Intern"
             link="https://www.winuall.com/"
             subText="Winuall"
-            description="Built an empowering bridge for learners, tutors, and individuals in the learning ecosystem to overcome the digital divide."
+            description="I focused on visual and interaction design for the product, crafting compelling narratives. My responsibilities included creating interactive features that enriched user experiences on both the app and website."
             btnLabel="View my work"
           />
         </div>

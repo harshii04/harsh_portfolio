@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Link from "next/link";
 import Btn from "./Btn";
 import IconBtnRight from "./IconButnRight";
@@ -8,23 +9,29 @@ const HeroDesc = () => {
       <div className="flex flex-col gap-2 ">
         <div>
           <span className="text-xs font-semibold text-lightGrey1 dark:text-darkGrey1">
-            LI’L ABOUT ME
+            ABOUT ME
           </span>
         </div>
         <div>
-          <p className="text-sm font-normal leading-7 tracking-tight md:text-xl md:leading-9">
-            I’m crafting exceptional products that blend Design and Engineering.
-            Making Impactful experiences with form and function. Currently
-            crafting experiences at{" "}
+          <p className="text-sm font-normal leading-7 tracking-tight md:text-base md:leading-7">
+            I'm an engineer with a passion for design, bringing a technical
+            perspective to product design challenges with a focus on
+            user-centered principles & visual design.
+          </p>
+        </div>
+        <div>
+          <span className="text-sm font-normal leading-7 tracking-tight md:text-base md:leading-7 ">
+            Currently working at{" "}
             <span className="inline-flex bg-gradient-to-r from-[#4AB1F1] via-[#566CEC] via-[#D749AF] to-[#FF7C51] bg-clip-text  font-medium text-transparent">
               {" "}
               <Link href="https://www.buildonscenes.com/" target="_blank">
                 Avalon Scenes
               </Link>
             </span>{" "}
-            . My objective is straightforward: To create exceptional things
-            alongside exceptional individuals with harmonious collaboration.
-          </p>
+            . One of the key skills I have acquired is the ability to
+            effectively manage time constraints when working on various projects
+            and features.
+          </span>
         </div>
       </div>
       <div className="flex gap-4">
