@@ -4,7 +4,7 @@ import Head from "next/head";
 // import ImageCarousel from "/components/Imagecour";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import AboutMeImg from "/public/images/AboutMeImg.png";
+import AboutMeImg from "/public/images/AboutMe.png";
 import Figma from "/public/images/figma.svg";
 import Notion from "/public/images/notion.svg";
 import Code from "/public/images/vscode.svg";
@@ -70,12 +70,12 @@ const about = () => {
           </svg>
         </div>
       </div>
-      <div className="grid grid-rows-1 gap-10 py-8 pt-8">
+      <div className="grid grid-rows-1 gap-10 py-8 pt-16">
         <div className="flex flex-col gap-4">
-          <span className="text-sm font-semibold text-lightGrey1 dark:text-darkGrey1 md:text-base">
+          <span className="text-sm font-semibold text-lightGrey1 dark:text-darkGrey1">
             How It All Started
           </span>
-          <p className="text-sm leading-6 tracking-tight text-lightText dark:text-white md:text-lg md:leading-8">
+          <p className="text-sm leading-6 tracking-tight text-lightText dark:text-white md:text-base md:leading-8">
             Exploring different fields during my first year of college, coding
             quickly caught my attention. But navigating clubs during the
             pandemic was tough. Luckily, I joined a club with friends and my
@@ -88,7 +88,7 @@ const about = () => {
           </p>
         </div>
         <div className="flex flex-col items-center gap-2">
-          <Image src={AboutMeImg} alt="" className="rounded-lg" />
+          <Image src={AboutMeImg} alt="" className="rounded-md" />
           {/* <ImageCarousel images={images} /> */}
           <span className="text-xs text-lightGrey2 dark:text-darkGrey2">
             Forever college fam 😄
@@ -98,7 +98,7 @@ const about = () => {
           <span className="text-sm font-semibold text-lightGrey1 dark:text-darkGrey1">
             Fast Forwarding Today!
           </span>
-          <p className="text-sm leading-6 tracking-tight  text-lightText dark:text-white md:text-lg md:leading-8">
+          <p className="text-sm leading-6 tracking-tight  text-lightText dark:text-white md:text-base md:leading-8">
             Since completing my cohort with 10kdesigners, I am currently working
             as a Product Design Intern at Avalon Scenes .
           </p>
@@ -107,7 +107,7 @@ const about = () => {
           <span className="text-sm font-semibold text-lightGrey1 dark:text-darkGrey1">
             What’s to come
           </span>
-          <p className="text-sm leading-6 tracking-tight text-lightText  dark:text-white md:text-lg md:leading-8">
+          <p className="text-sm leading-6 tracking-tight text-lightText  dark:text-white md:text-base md:leading-8">
             As an engineer, I have a strong passion for technology and I'm
             always on the lookout for the latest developments and trends. I'm
             particularly interested in exploring how design can be integrated
