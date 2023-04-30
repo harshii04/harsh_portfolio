@@ -90,9 +90,6 @@ const about = () => {
         <div className="flex flex-col items-center gap-2">
           <Image src={AboutMeImg} alt="" className="rounded-md" />
           {/* <ImageCarousel images={images} /> */}
-          <span className="text-xs text-lightGrey2 dark:text-darkGrey2">
-            Forever college fam 😄
-          </span>
         </div>
         <div className="flex flex-col gap-4">
           <span className="text-sm font-semibold text-lightGrey1 dark:text-darkGrey1">
