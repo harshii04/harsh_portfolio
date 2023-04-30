@@ -21,16 +21,16 @@ const HeroDesc = () => {
         </div>
         <div>
           <span className="text-sm font-normal leading-7 tracking-tight md:text-base md:leading-7 ">
-            Currently working at{" "}
+            {/* Currently working at{" "}
             <span className="inline-flex bg-gradient-to-r from-[#4AB1F1] via-[#566CEC] via-[#D749AF] to-[#FF7C51] bg-clip-text  font-medium text-transparent">
               {" "}
               <Link href="https://www.buildonscenes.com/" target="_blank">
                 Avalon Scenes
               </Link>
-            </span>{" "}
-            . One of the key skills I have acquired is the ability to
-            effectively manage time constraints when working on various projects
-            and features.
+            </span> */}
+            One of the key skills I have acquired is the ability to effectively
+            manage time constraints when working on various projects and
+            features.
           </span>
         </div>
       </div>
