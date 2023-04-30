@@ -57,7 +57,7 @@ const HeroDesc = () => {
           />
         </Link>
         <Link
-          href="https://drive.google.com/file/d/1Vrm5u9mcTLJOunQLBgMz_zs3XB5iUtT8/view?usp=sharing"
+          href="https://drive.google.com/file/d/1YodV0LKdMZrfzsy3Vs7g72TzLMDV0j3u/view?usp=sharing"
           target="_blank"
         >
           <Btn textLabel="View my Resume" />

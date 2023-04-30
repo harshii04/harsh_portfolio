@@ -15,7 +15,7 @@ const Experience = () => {
         <div className="flex flex-col gap-4">
           <ExperienceCard
             type="Design"
-            time="Dec 2022 - Present"
+            time="Dec 2022 - Apr 2022"
             subText="Avalon Scenes"
             heading="Product Design Intern"
             link="https://www.buildonscenes.com/"
