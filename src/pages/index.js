@@ -21,7 +21,7 @@ export default function Home() {
         <title>Harshvardhan Agarwal - Product Designer</title>
         <meta
           name="description"
-          content="I am a product designer with experience in UX/UI design, product strategy, and user research. Check out my portfolio and let's work together."
+          content="I am a product designer with experience in UX/UI design, product strategy, and user research. Check out my portfolio!"
         />
         <meta
           name="keywords"
@@ -34,9 +34,9 @@ export default function Home() {
         />
         <meta
           property="og:description"
-          content="I am a product designer with experience in UX/UI design, product strategy, and user research. Check out my portfolio and let's work together."
+          content="I am a product designer with experience in UX/UI design, product strategy, and user research. Check out my portfolio!"
         />
-        <meta property="og:image" content="/public/SocialMediaCover.png" />
+        <meta property="og:image" content="/public/Twitter Banner.png" />
         <meta
           name="twitter:title"
           content="Harshvardhan Agarwal - Product Designer"
@@ -45,7 +45,7 @@ export default function Home() {
           name="twitter:description"
           content="I am a product designer with experience in UX/UI design, product strategy, and user research. Check out my portfolio and let's work together."
         />
-        <meta name="twitter:image" content="/public/SocialMediaCover.png" />
+        <meta name="twitter:image" content="/public/Twitter Banner.png" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
