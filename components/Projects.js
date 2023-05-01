@@ -38,7 +38,7 @@ const Projects = () => {
           <ProjectCard
             image={Dive}
             heading="Creating Dive platform's Trivia Game"
-            subtext="In round one, designed a trivia game to enhance user engagement during sessions on Dive platform."
+            subtext="Designed a trivia game to enhance user engagement during sessions on Dive platform."
             date="2021"
             status="Completed"
             link="https://bootcamp.uxdesign.cc/trivia-dive-intern-challenge-9bcefc186517"
