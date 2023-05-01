@@ -1,8 +1,11 @@
-import Head from "next/head";
 import Link from "next/link";
 import Btn from "./Btn";
 import ExperienceCard from "./ExperienceCard";
 import MarqueeComp from "./MarqueeComp";
+import Avalon from "/public/images/Exp. Avalon.svg";
+import tenk from "/public/images/Exp. 10k.svg";
+import Dive from "/public/images/Exp. Dive.svg";
+import Winuall from "/public/images/Exp. Winuall.svg";
 
 const Experience = () => {
   return (
@@ -19,9 +22,10 @@ const Experience = () => {
             subText="Avalon Scenes"
             heading="Product Design Intern"
             link="https://www.buildonscenes.com/"
-            description="At Scenes, we are building an all-in-one community platform that enables creators to connect & manage their community better."
+            description="At Scenes, we were building an all-in-one community platform that enables creators to connect & manage their community better."
             btnLabel="View My Work"
             btn_hide={true}
+            logo={Avalon}
           />
           <hr className="border-lightLightStroke dark:border-darkLightStroke" />
           <ExperienceCard
@@ -33,6 +37,7 @@ const Experience = () => {
             description="Design cohort run by Abhinav Chikara (aka Abnux) and Jayneil Dayal, that empowers designers through mentorship and real-world projects."
             btnLabel="Work in progress"
             btn_hide={true}
+            logo={tenk}
           />
           <hr className="border-lightLightStroke dark:border-darkLightStroke" />
 
@@ -42,8 +47,9 @@ const Experience = () => {
             heading="Product Design Intern"
             link="https://www.letsdive.io/"
             subText="Dive"
-            description="I built and facilitated engaging remote experiences, connecting colleagues at work. I designed various games, including 'Word Pirate,' which became one of the platform's most-played games within two weeks of launch.As a remote work facilitator, I created fun and engaging virtual experiences that boosted team morale and improved productivity."
+            description="I built and facilitated engaging remote experiences, connecting colleagues at work. I designed various games, including 'Word Pirate' which became one of the platform's most-played games within two weeks of launch.As a remote work facilitator, I created fun and engaging virtual experiences that boosted team morale and improved productivity."
             btnLabel="View My Work"
+            logo={Dive}
           />
           <hr className="border-lightLightStroke dark:border-darkLightStroke" />
 
@@ -55,6 +61,7 @@ const Experience = () => {
             subText="Winuall"
             description="I focused on visual and interaction design for the product, crafting compelling narratives. My responsibilities included creating interactive features that enriched user experiences on both the app and website."
             btnLabel="View my work"
+            logo={Winuall}
           />
         </div>
         <div className="">

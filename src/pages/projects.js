@@ -74,7 +74,7 @@ const projects = () => {
         <ProjectCard
           image={Fampay}
           heading="UI/ UX Case Study: Group Food Ordering"
-          subtext="Designed an solution that simplifies the decision-making process and saves time for users."
+          subtext="Designed an solution that simplifies the decision-making process and saves time for users while ordering food in a group."
           date="2022"
           status="Completed"
           link="https://bootcamp.uxdesign.cc/group-food-ordering-helping-people-order-food-online-in-groups-e669b696434d"
@@ -83,7 +83,7 @@ const projects = () => {
         <ProjectCard
           image={ParitoshCover}
           heading="UI/ UX Case Study: Designing a landing page for a creator"
-          subtext="I redesigned Paritosh Anand's website to improve user engagement and experience as part of the 10kdesigners cohort assignment."
+          subtext="I designed Paritosh Anand's website to improve user engagement and experience as part of the 10kdesigners cohort assignment."
           date="2022"
           status="In Progress"
           link="https://designbyharsh.notion.site/UI-UX-Case-Study-Designing-a-landing-page-for-a-creator-fec0ecadc2a741ada7280877e6093e58"
@@ -101,7 +101,7 @@ const projects = () => {
         <ProjectCard
           image={Dive}
           heading="Creating Dive platform's Trivia Game"
-          subtext="In round one, designed a trivia game to enhance user engagement during sessions on Dive platform."
+          subtext="Designed a trivia game to enhance user engagement during sessions on Dive platform."
           date="2022"
           status="Completed"
           link="https://bootcamp.uxdesign.cc/trivia-dive-intern-challenge-9bcefc186517"
@@ -110,7 +110,7 @@ const projects = () => {
         <ProjectCard
           image={IRCTC}
           heading="UI/ UX Case Study: IRCTC Rail Connect App Redesign"
-          subtext="In a Designathon project, I redesigned an app's UX by identifying its flaws."
+          subtext="Redesigned IRCTC app by identifying & fixing the UX flaws."
           date="2021"
           status="Completed"
           link="https://medium.com/@harsh_youx/irctc-app-redesign-60f4d3a7c0b0"

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import IconBtnLeft from "./IconBtnLeft";
 import TagComp from "./TagComp";
 import Link from "next/link";
@@ -6,6 +7,7 @@ const ExperienceCard = ({
   time,
   type,
   heading,
+  logo,
   subText,
   description,
   link,
@@ -15,14 +17,22 @@ const ExperienceCard = ({
   return (
     <div className="flex flex-col gap-4 py-4">
       <div className="flex gap-2">
-        <TagComp textLabel={type} />
         <TagComp textLabel={time} />
       </div>
       <div className="flex flex-col gap-4">
         <div className="flex flex-col gap-1">
-          <span className="font-medium leading-5 tracking-tight text-lightText dark:text-white md:text-lg">
-            {heading}{" "}
-          </span>
+          <div className="flex items-center gap-2 py-2">
+            <Image
+              src={logo}
+              alt="this is the logo of the company"
+              width={48}
+              height={48}
+            />
+            <span className="font-medium leading-5 tracking-tight text-lightText dark:text-white md:text-lg">
+              {heading}{" "}
+            </span>
+          </div>
+
           <div className="flex items-center gap-1">
             <span className="md:hover:underline-lightGrey1 text-sm font-medium leading-5 tracking-tight text-lightGrey1 dark:text-darkGrey1 md:text-base md:hover:underline md:hover:underline-offset-4">
               <Link href={link} target="_blank">
