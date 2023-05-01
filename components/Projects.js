@@ -20,7 +20,7 @@ const Projects = () => {
           <ProjectCard
             image={Fampay}
             heading="UI/ UX Case Study: Group Food Ordering"
-            subtext="Designed an solution that simplifies the decision-making process and saves time for users."
+            subtext="Designed an solution that simplifies the decision-making process and saves time for users while ordering food in a group."
             date="2022"
             status="Completed"
             link="https://bootcamp.uxdesign.cc/group-food-ordering-helping-people-order-food-online-in-groups-e669b696434d"
