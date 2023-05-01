@@ -18,9 +18,6 @@ const CurrentlyCard = ({ icon, heading, subHeading, image }) => {
           </div>
         </div>
       </div>
-      <div>
-        <Image src={image} alt="This is the image" height={16} width={16} />
-      </div>
     </div>
   );
 };

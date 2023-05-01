@@ -93,15 +93,6 @@ const about = () => {
         </div>
         <div className="flex flex-col gap-4">
           <span className="text-sm font-semibold text-lightGrey1 dark:text-darkGrey1">
-            Fast Forwarding Today!
-          </span>
-          <p className="text-sm leading-6 tracking-tight  text-lightText dark:text-white md:text-base md:leading-8">
-            Since completing my cohort with 10kdesigners, I am currently working
-            as a Product Design Intern at Avalon Scenes .
-          </p>
-        </div>{" "}
-        <div className="flex flex-col gap-4">
-          <span className="text-sm font-semibold text-lightGrey1 dark:text-darkGrey1">
             What’s to come
           </span>
           <p className="text-sm leading-6 tracking-tight text-lightText  dark:text-white md:text-base md:leading-8">

@@ -83,7 +83,7 @@ export default function Home() {
         <div className={inter.className}>
           <Hero />
           <HeroDesc />
-          <Currently />
+          {/* <Currently /> */}
           <Projects />
           <Experience />
           <ContactMe />
