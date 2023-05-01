@@ -1,15 +1,13 @@
 import Head from "next/head";
 import { motion } from "framer-motion";
 import Hero from "../../components/HeroHead";
-import { Inter, Spline_Sans } from "next/font/google";
+import { Inter } from "next/font/google";
 import HeroDesc from "../../components/HeroDesc";
-import Currently from "../../components/Currently";
 import Projects from "../../components/Projects";
 import Experience from "../../components/Experience";
 import ContactMe from "../../components/ContactMe";
 import RandomQuoteGenerator from "../../components/RandomQuoteGenerator";
 
-const splineSans = Spline_Sans({ subsets: ["latin"] });
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
