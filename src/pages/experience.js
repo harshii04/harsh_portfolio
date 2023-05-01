@@ -68,7 +68,7 @@ const experience = () => {
           heading="Product Design Intern"
           link="https://www.buildonscenes.com/"
           subText="Avalon Scenes"
-          description="At Scenes, we are building an all-in-one community platform that enables creators to connect & manage their community better."
+          description="At Scenes, we were building an all-in-one community platform that enables creators to connect & manage their community better."
           btnLabel="View My Work"
           btn_hide={true}
           logo={Avalon}
