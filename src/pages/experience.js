@@ -76,7 +76,7 @@ const experience = () => {
         <hr className="border-lightLightStroke dark:border-darkLightStroke" />
         <ExperienceCard
           type="Design"
-          time="Jul 2022 - Mar 2022"
+          time="Jul 2022 - Sep 2022"
           heading="Designer in Residence"
           link="https://www.10kdesigners.com/"
           subText="10kdesigners"
