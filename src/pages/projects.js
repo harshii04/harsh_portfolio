@@ -92,7 +92,7 @@ const projects = () => {
         <ProjectCard
           image={Razorpay}
           heading="UI/ UX Case Study: Enabling local stores to sell on WhatsApp for Businesses"
-          subtext="Designed a product that simplifies local store sales on WhatsApp for businesses."
+          subtext="Designed a feature that simplifies local store sales on WhatsApp for businesses."
           date="2022"
           status="Completed"
           link="https://bootcamp.uxdesign.cc/a-ui-ux-case-study-enabling-the-local-stores-to-sell-items-on-whatsapp-for-businesses-4f372ebfded5"
