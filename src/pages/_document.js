@@ -8,7 +8,10 @@ export default function Document() {
           property="og:title"
           content="Harshvardhan Agarwal - Product Designer"
         />
-        <meta property="og:image" content="/public/Twitter Banner.png" />
+        <meta
+          property="og:image"
+          content="https://harshii.works/Twitter%20Banner.png"
+        />
         <link rel="manifest" href="/manifest.json" />
       </Head>
       <body>
