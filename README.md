@@ -1,5 +1,5 @@
 <!-- Replace the image below with your own -->
-<img src="/public/Twitter Banner.png" align="right" />
+<img src="/public/Twitter Banner.png" align="center" />
 
 # Portfolio built with Next.js and Tailwind CSS
 
