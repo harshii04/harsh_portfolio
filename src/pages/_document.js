@@ -4,8 +4,13 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-          <link rel="manifest" href="/manifest.json" />
-        </Head>
+        <meta
+          property="og:title"
+          content="Harshvardhan Agarwal - Product Designer"
+        />
+        <meta property="og:image" content="/public/Twitter Banner.png" />
+        <link rel="manifest" href="/manifest.json" />
+      </Head>
       <body>
         <Main />
         <NextScript />
