@@ -17,23 +17,14 @@ export default function Home() {
         <title>Harshvardhan Agarwal</title>
         <title>Harshvardhan Agarwal</title>
         <title>Harshvardhan Agarwal - Product Designer</title>
-        <meta
-          name="description"
-          content="I am a product designer with experience in UX/UI design, product strategy, and user research. Check out my portfolio!"
-        />
+     
         <meta
           name="keywords"
           content="product design, UX/UI design, user research, portfolio"
         />
         <meta name="author" content="Harshvardhan Agarwal" />
-        <meta
-          property="og:title"
-          content="Harshvardhan Agarwal - Product Designer"
-        />
-        <meta
-          property="og:description"
-          content="I am a product designer with experience in UX/UI design, product strategy, and user research. Check out my portfolio!"
-        />
+      
+     
         <meta
           property="og:image"
           content="https://harshii.works/Twitter%20Banner.png"
