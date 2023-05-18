@@ -24,10 +24,7 @@ export default function Home() {
         />
         <meta name="author" content="Harshvardhan Agarwal" />
 
-        <meta
-          property="description"
-          content="Product designer who is currently living in the shoes of an engineer, also diving into the AI verse with design."
-        />
+    
         <meta
           property="og:image"
           content="https://harshii.works/Twitter%20Banner.png"
