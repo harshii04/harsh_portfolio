@@ -14,6 +14,11 @@ import Spotify from "/public/images/spotify.svg";
 import Discord from "/public/images/discord.svg";
 import AfterEffects from "/public/images/ae.svg";
 import RandomQuoteGenerator from "../../components/RandomQuoteGenerator";
+import EmblaCarousel from "../../components/courousel";
+
+const OPTIONS = { inViewThreshold: 0, dragFree: true };
+const SLIDE_COUNT = 5;
+const SLIDES = Array.from(Array(SLIDE_COUNT).keys());
 
 const about = () => {
   // const images = [
@@ -88,7 +93,8 @@ const about = () => {
           </p>
         </div>
         <div className="flex flex-col items-center gap-2">
-          <Image src={AboutMeImg} alt="" className="rounded-md" />
+          {/* <Image src={AboutMeImg} alt="" className="rounded-md" /> */}
+          <EmblaCarousel slides={SLIDES} options={OPTIONS} />
           {/* <ImageCarousel images={images} /> */}
         </div>
         <div className="flex flex-col gap-4">

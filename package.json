@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@vercel/analytics": "^0.1.11",
-    "embla-carousel-react": "^7.1.0",
+    "embla-carousel-react": "^8.0.0-rc03",
     "eslint": "8.36.0",
     "eslint-config-next": "13.2.4",
     "framer-motion": "^10.9.2",
