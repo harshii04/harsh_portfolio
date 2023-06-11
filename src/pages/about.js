@@ -93,9 +93,7 @@ const about = () => {
           </p>
         </div>
         <div className="flex flex-col items-center gap-2">
-          {/* <Image src={AboutMeImg} alt="" className="rounded-md" /> */}
-          <EmblaCarousel slides={SLIDES} options={OPTIONS} />
-          {/* <ImageCarousel images={images} /> */}
+          <Image src={AboutMeImg} alt="" className="rounded-md" />
         </div>
         <div className="flex flex-col gap-4">
           <span className="text-sm font-semibold text-lightGrey1 dark:text-darkGrey1">
