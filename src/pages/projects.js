@@ -9,6 +9,7 @@ import ParitoshCover from "/public/images/Frame 44.png";
 import TPHCover from "/public/images/TPH.png";
 import RandomQuoteGenerator from "../../components/RandomQuoteGenerator";
 import Head from "next/head";
+import projectData from "../../Data/projects";
 
 const projects = () => {
   return (
@@ -62,7 +63,21 @@ const projects = () => {
         </div>
       </div>
       <div className="flex flex-col pt-8">
-        <ProjectCard
+        {projectData.projects.map((project) => {
+          return (
+            <ProjectCard
+              key={project.id}
+              image={project.image}
+              heading={project.heading}
+              subtext={project.subtext}
+              date={project.date}
+              status={project.status}
+              link={project.link}
+            />
+          );
+        })}
+
+        {/* <ProjectCard
           image={TPHCover}
           heading="Redesigning the landing page for better discoveribility"
           subtext="Redesigned 'The Product House' landing page for my take-home assignment! My goal was to create an engaging and informative showcase of their brand."
@@ -114,7 +129,7 @@ const projects = () => {
           date="2021"
           status="Completed"
           link="https://medium.com/@harsh_youx/irctc-app-redesign-60f4d3a7c0b0"
-        />
+        /> */}
       </div>
       <footer className="mt-auto py-4 pt-8 text-center text-white md:pt-16">
         <div className="flex flex-col items-center ">

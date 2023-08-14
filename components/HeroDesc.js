@@ -2,6 +2,7 @@
 import Link from "next/link";
 import Btn from "./Btn";
 import IconBtnRight from "./IconButnRight";
+import heroData from "../Data/hero";
 
 const HeroDesc = () => {
   return (
@@ -14,9 +15,7 @@ const HeroDesc = () => {
         </div>
         <div>
           <p className="text-sm font-normal leading-7 tracking-tight md:text-base md:leading-7">
-            I'm an engineer with a passion for design, bringing a technical
-            perspective to product design challenges with a focus on
-            user-centered principles & visual design.
+            {heroData.data}
           </p>
         </div>
         <div>
@@ -28,9 +27,9 @@ const HeroDesc = () => {
                 Avalon Scenes
               </Link>
             </span> */}
-            One of the key skills I have acquired is the ability to effectively
+            {/* One of the key skills I have acquired is the ability to effectively
             manage time constraints when working on various projects and
-            features.
+            features. */}
           </span>
         </div>
       </div>
