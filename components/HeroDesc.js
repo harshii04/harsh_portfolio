@@ -34,7 +34,7 @@ const HeroDesc = () => {
         </div>
       </div>
       <div className="flex gap-4">
-        <Link href="/about">
+        {/* <Link href="/about">
           <IconBtnRight
             textLabel="Read More"
             icon={
@@ -54,7 +54,7 @@ const HeroDesc = () => {
               </svg>
             }
           />
-        </Link>
+        </Link> */}
         <Link href="https://drive.google.com/file/d/16s3t69Xo9xH25xyEwG79vnf2P40uAFYg/view?usp=sharing">
           <Btn textLabel="View my Resume" />
         </Link>
