@@ -9,16 +9,6 @@ import TPHCover from "/public/images/TPH.png";
 const projectData = {
   projects: [
     {
-      id: 1,
-      image: TPHCover,
-      heading: "Redesigning the landing page for better discoverability",
-      subtext:
-        "Redesigned 'The Product House' landing page for my take-home assignment! My goal was to create an engaging and informative showcase of their brand.",
-      date: "2022",
-      status: "Completed",
-      link: "https://designbyharsh.notion.site/The-Product-House-Design-Assignment-832731c6218c45cfa61655cb23a1fa2d",
-    },
-    {
       id: 2,
       image: Fampay,
       heading: "UI/ UX Case Study: Group Food Ordering",
@@ -29,15 +19,16 @@ const projectData = {
       link: "https://bootcamp.uxdesign.cc/group-food-ordering-helping-people-order-food-online-in-groups-e669b696434d",
     },
     {
-      id: 3,
-      image: ParitoshCover,
-      heading: "UI/ UX Case Study: Designing a landing page for a creator",
+      id: 5,
+      image: Dive,
+      heading: "Creating Dive platform's Trivia Game",
       subtext:
-        "I designed Paritosh Anand's website to improve user engagement and experience as part of the 10kdesigners cohort assignment.",
+        "Designed a trivia game to enhance user engagement during sessions on Dive platform.",
       date: "2022",
-      status: "In Progress",
-      link: "https://designbyharsh.notion.site/UI-UX-Case-Study-Designing-a-landing-page-for-a-creator-fec0ecadc2a741ada7280877e6093e58",
+      status: "Completed",
+      link: "https://bootcamp.uxdesign.cc/trivia-dive-intern-challenge-9bcefc186517",
     },
+
     {
       id: 4,
       image: Razorpay,
@@ -49,15 +40,27 @@ const projectData = {
       status: "Completed",
       link: "https://bootcamp.uxdesign.cc/a-ui-ux-case-study-enabling-the-local-stores-to-sell-items-on-whatsapp-for-businesses-4f372ebfded5",
     },
+
     {
-      id: 5,
-      image: Dive,
-      heading: "Creating Dive platform's Trivia Game",
+      id: 3,
+      image: ParitoshCover,
+      heading: "UI/ UX Case Study: Designing a landing page for a creator",
       subtext:
-        "Designed a trivia game to enhance user engagement during sessions on Dive platform.",
+        "I designed Paritosh Anand's website to improve user engagement and experience as part of the 10kdesigners cohort assignment.",
+      date: "2022",
+      status: "In Progress",
+      link: "https://designbyharsh.notion.site/UI-UX-Case-Study-Designing-a-landing-page-for-a-creator-fec0ecadc2a741ada7280877e6093e58",
+    },
+
+    {
+      id: 1,
+      image: TPHCover,
+      heading: "Redesigning the landing page for better discoverability",
+      subtext:
+        "Redesigned 'The Product House' landing page for my take-home assignment! My goal was to create an engaging and informative showcase of their brand.",
       date: "2022",
       status: "Completed",
-      link: "https://bootcamp.uxdesign.cc/trivia-dive-intern-challenge-9bcefc186517",
+      link: "https://designbyharsh.notion.site/The-Product-House-Design-Assignment-832731c6218c45cfa61655cb23a1fa2d",
     },
     {
       id: 6,
