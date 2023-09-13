@@ -16,18 +16,21 @@ const Experience = () => {
         <div className="flex flex-col gap-4">
           {expData.map((exp) => {
             return (
-              <ExperienceCard
-                key={exp.id}
-                type={exp.type}
-                time={exp.time}
-                heading={exp.heading}
-                link={exp.link}
-                subText={exp.subText}
-                description={exp.description}
-                btnLabel={exp.btnLabel}
-                btn_hide={exp.btn_hide}
-                logo={exp.logo}
-              />
+              <>
+                <ExperienceCard
+                  key={exp.id}
+                  type={exp.type}
+                  time={exp.time}
+                  heading={exp.heading}
+                  link={exp.link}
+                  subText={exp.subText}
+                  description={exp.description}
+                  btnLabel={exp.btnLabel}
+                  btn_hide={exp.btn_hide}
+                  logo={exp.logo}
+                />
+                <hr className="border-lightLightStroke dark:border-darkLightStroke" />
+              </>
             );
           })}
         </div>
